@@ -1,5 +1,5 @@
 {
-    "name": "light-grid-system",
+    "name": "better-grid",
     "version": "1.3.2",
     "description": "Simple as f*** grid system",
     "main": "gulpfile.js",
@@ -15,6 +15,6 @@
       "gulp-sass": "^4.0.1",
       "gulp-strip-css-comments": "^2.0.0"
     },
-    "repository": "https://github.com/oscar-marion/light-grid"
+    "repository": "https://github.com/oscar-marion/better-grid"
   }
   
