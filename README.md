@@ -15,7 +15,7 @@ Several options are available depending on your needs :
 
 ### I want the whole thing:
 
-- [Download the latest release.](https://github.com/oscar-marion/better-grid/archive/master.zip)
+- [Download the latest release.](https://github.com/oscar-marion/better-grid/archive/v1.3.2.zip)
 - Clone the repo: `git clone https://github.com/oscar-marion/better-grid.git`
 
 ### I need the uncompiled version (sass):
