@@ -20,11 +20,11 @@ Several options are available depending on your needs :
 
 ### I need the uncompiled version (sass):
 
-- Download the latest version of [better-grid.scss](https://github.com/oscar-marion/better-grid/blob/master/sass/light-grid.scss)
+- Download the latest version of [better-grid.scss](https://github.com/oscar-marion/better-grid/blob/master/sass/better-grid.scss)
 
 ### Nah, just give me the compiled css file!
 
-- You'll find a ready-to use [better-grid.css](https://github.com/oscar-marion/better-grid/blob/master/css/light-grid.css) right here, you lazy.
+- You'll find a ready-to use [better-grid.css](https://github.com/oscar-marion/better-grid/blob/master/css/better-grid.css) right here, you lazy.
 
 ## What's included
 
@@ -39,11 +39,11 @@ better-grid/
 ```
 ## How it works
 
-Every website needs a layout system: [Bootstrap](https://github.com/twbs/bootstrap) provides a very complete one, and so does every CSS framework on this planet. If you don't want to use any framework but you still need a great layout system, I might have what you're looking for. **Better grid** offers nothing but a light-weight layout system, based on `css grid`.
+Every website needs a layout system: [Bootstrap](https://github.com/twbs/bootstrap) provides a very complete one, and so does every CSS framework on this planet. If you don't want to use any framework but you still need a great layout system, I might have what you're looking for. **Better grid** offers nothing but a light-weight layout system, based on css grid.
 
 ## Documentation
 
-Better grid is based on grillade, the layout system of KNACSS Framework. 
+Better grid is based on grillade, the layout system of KNACSS framework. 
 
 You'll find the complete guide here : [knacss.com/doc.html#grids](https://www.knacss.com/doc.html#grids)
 
@@ -65,6 +65,3 @@ Even with auto-prefixer on and with a lot of good will, Internet Explorer is alw
 |  IE11   |     2.8%     |
 --------------------------
 ```
-
-It should be enough for most of your production needs, except if you're targeting Windows XP users of course.
-
