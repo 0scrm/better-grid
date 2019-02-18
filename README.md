@@ -30,6 +30,8 @@ Several options are available depending on your needs :
 
 ## What's included
 
+Every website needs a layout system: [Bootstrap](https://github.com/twbs/bootstrap) provides a very complete one, and so does every CSS framework on this planet. If you don't want to use any framework but you still need a great layout system, I might have what you're looking for. **Better grid** offers nothing but a light-weight layout system, based on css grid.
+
 Within the download you'll find the following directories and files, one uncompiled version, and one compiled & minified version :
 
 ```text
@@ -38,10 +40,8 @@ better-grid/
     ├── better-grid.scss
 └── css/
     ├── better-grid.css
+└── gulpfile.js
 ```
-## How it works
-
-Every website needs a layout system: [Bootstrap](https://github.com/twbs/bootstrap) provides a very complete one, and so does every CSS framework on this planet. If you don't want to use any framework but you still need a great layout system, I might have what you're looking for. **Better grid** offers nothing but a light-weight layout system, based on css grid.
 
 ## Documentation
 
