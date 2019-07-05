@@ -20,7 +20,7 @@ $cols: 6;
 $cols-tablet: 4;
 $cols-mobile: 2;
 $iefix: .01px;
-$gutter: ("": 1rem, "-s": .5rem, "-l": 2rem, "-xl": 4rem) !global;
+$gutter: ("": 1rem, "-s": .5rem, "-l": 2rem, "-xl": 4rem);
 
 [class*=" grid-"], [class^="grid-"] {
     /* autoprefixer: off */

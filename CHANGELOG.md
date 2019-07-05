@@ -1,4 +1,7 @@
-### 1.3.2( February 16, 2019)
+### 1.3.3 (July 5, 2019)
+- Removing deprecated !global assignments on variables
+
+### 1.3.2 (February 16, 2019)
 - Full support for IE9 : transparent gutters with rgba
 - Horizontal-only layout system
 

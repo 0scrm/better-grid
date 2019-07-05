@@ -17,7 +17,7 @@ Several options are available depending on your needs :
 
 - [Download the latest release.](https://github.com/oscar-marion/better-grid/archive/v1.3.2.zip)
 - Clone the repo: `git clone https://github.com/oscar-marion/better-grid.git`
-- run `npm install`
+- run `npm install` or `yarn install`
 - Once all the dependencies installed, run `gulp`to compile the sass
 
 ### I need the uncompiled version (sass):
