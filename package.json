@@ -10,8 +10,11 @@
     "license": "MIT",
     "devDependencies": {},
     "dependencies": {
-      "gulp": "^3.9.1",
-      "gulp-autoprefixer": "^5.0.0",
+      "gulp": "^4.0.2",
+      "cssnano": "^4.1.10",
+      "del": "^5.0.0",
+      "autoprefixer": "^9.6.0",
+      "gulp-postcss": "^8.0.0",
       "gulp-sass": "^4.0.1",
       "gulp-strip-css-comments": "^2.0.0"
     },

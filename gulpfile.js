@@ -1,20 +1,27 @@
-var gulp = require('gulp');  
-var sass = require('gulp-sass');  
-var prefix = require('gulp-autoprefixer');
-const stripCssComments = require('gulp-strip-css-comments');
-var prefixerOptions = {
-  browsers: ['last 2 versions']
-};
+const {
+  src,
+  dest,
+  series,
+  parallel
+} = require("gulp")
+const sass = require('gulp-sass'),
+  del = require("del"),
+  postcss = require("gulp-postcss"),
+  autoprefixer = require("autoprefixer"),
+  cssnano = require("cssnano"),
+  path = "sass/*.scss"
 
-gulp.task('sass', function () {  
-    gulp.src('./sass/**/*.scss')
-        .pipe(sass({includePaths: ['sass']}))
-        .pipe(prefix(prefixerOptions))
-        .pipe(sass({outputStyle: 'compressed'}))
-        .pipe(stripCssComments({
-            preserve: false
-        }))
-        .pipe(gulp.dest('./css/'));
-});
+function clean() {
+  return del("build/**/*")
+}
 
-gulp.task('default', ['sass']);
+function styles() {
+  return src(path)
+    .pipe(sass())
+    .pipe(postcss([autoprefixer(), cssnano()]))
+    .pipe(dest("build"))
+}
+
+exports.default = series(
+  parallel(clean, styles)
+)
