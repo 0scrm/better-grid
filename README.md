@@ -26,7 +26,7 @@ Several options are available depending on your needs :
 
 ### Nah, just give me the compiled css file!
 
-- You'll find a ready-to use [better-grid.css](https://github.com/oscar-marion/better-grid/blob/master/css/better-grid.css) right here, you lazy.
+- You'll find a ready-to use [better-grid.css](https://github.com/oscar-marion/better-grid/blob/master/build/better-grid.css) right here, you lazy.
 
 ## What's included
 
@@ -38,7 +38,7 @@ Within the download you'll find the following directories and files, one uncompi
 better-grid/
 └── sass/
     ├── better-grid.scss
-└── css/
+└── build/
     ├── better-grid.css
 └── gulpfile.js
 ```
